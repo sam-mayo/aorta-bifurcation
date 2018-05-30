@@ -1,6 +1,8 @@
 # aorta-bifurcation
 A term project that uses a hybrid distributed-lumped parameter model to simulate an aorta bifurcation and calculate the impedance modulus and phase based on a range of frequencies and other parameters.
 
+-----
+
 From the project description by Dr. Guohao Dai, PhD:
 
 Lumped parameter models (e.g. windkessel model) are very easy and simple models that can
