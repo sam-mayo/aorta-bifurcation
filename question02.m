@@ -83,9 +83,9 @@ for k = 1:length(E2tests);
 end
 plot(f,zeros([1,length(f)]),'k--')
 
-title('Modulus vs. Frequency')
+title('Phase vs. Frequency')
 xlabel('Frequency (Hz)')
-ylabel('Modulus')
+ylabel('Phase (radians)')
 legend(legendCell)
 
 parameters.E2 = 6e6;
@@ -128,9 +128,9 @@ for k = 1:length(E1tests);
 end
 plot(f,zeros([1,length(f)]),'k--')
 
-title('Modulus vs. Frequency')
+title('Phase vs. Frequency')
 xlabel('Frequency (Hz)')
-ylabel('Modulus')
+ylabel('Phase (radians)')
 legend(legendCell)
 
 parameters.E1 = 7e6;
